@@ -1,0 +1,48 @@
+{
+  "name": "untitled",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "ag-grid-react": "^21.2.2",
+    "ag-grid-community": "^21.2.2",
+    "bootstrap": "^4.3.1",
+    "material-ui": "^0.20.2",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-native": "^0.61.2",
+    "react-router": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-sidebar": "^3.0.2",
+    "react-user-avatar": "^1.10.0",
+    "reactstrap": "^8.0.1",
+    "semantic-ui-react": "^0.88.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^5.1.2"
+  }
+}

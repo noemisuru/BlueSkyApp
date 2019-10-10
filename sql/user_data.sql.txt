@@ -1,0 +1,15 @@
+IF EXISTS ( SELECT [name] FROM sys.tables WHERE [name] = 'user_data' )   
+DROP TABLE USER_DATA   
+GO   
+     
+CREATE TABLE USER_DATA   
+(   
+  UserID int NOT NULL , 
+   login_time datetime,
+   logout_time datetime
+) ON [PRIMARY]      
+ 
+ Insert into USER_DATA(UserID, login_time, logout_time) Values('101',CURRENT_TIMESTAMP, NULL)
+ Insert into USER_DATA(UserID, login_time, logout_time) Values('101', NULL, DATEADD(hour,8,CURRENT_TIMESTAMP))
+ 
+select * from USER_DATA 

@@ -1,0 +1,13 @@
+{
+  "name": "HttpTriggerJS",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^5.1.0"
+  },
+  "devDependencies": {}
+}
